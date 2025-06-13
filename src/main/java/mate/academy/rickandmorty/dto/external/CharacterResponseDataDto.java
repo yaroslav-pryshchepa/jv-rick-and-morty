@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class CharacterResponseDataDto {
     private Long id;
-    private String externalId;
+    private Long externalId;
     private String name;
     private String status;
     private String gender;
